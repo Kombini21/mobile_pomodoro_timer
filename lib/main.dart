@@ -78,7 +78,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
 
-      backgroundColor: const Color.fromRGBO(27, 52, 75, 1),
+      backgroundColor: const Color.fromRGBO(254, 249, 167,1),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -91,7 +91,7 @@ class _MyHomePageState extends State<MyHomePage> {
               Text(
                 "$_minutes : $_seconds",
                 style: const TextStyle(
-                  color: Colors.redAccent,
+                  color: Color.fromRGBO(214, 28, 78,1),
                   fontSize: 48,
                 ),
               ),
@@ -108,16 +108,16 @@ class _MyHomePageState extends State<MyHomePage> {
                   _stopTimer();
                 },
                 style: ElevatedButton.styleFrom(
-                primary: Colors.black,
+                primary: const Color.fromRGBO(250, 194, 19,1),
                 padding: const EdgeInsets.all(40.0),
                 shape: const CircleBorder(
-                  side: BorderSide(color: Colors.orange),
+                  side: BorderSide(color: Color.fromRGBO(247, 126, 33, 1)),
                 ),
                 ),
                 child: const Text(
                   "Stop",
                   style: TextStyle(
-                    color: Color.fromARGB(230, 248, 69, 69),
+                    color: Color.fromRGBO(214, 28, 78,1),
                     fontSize: 24,
                   ),
                   ),
@@ -127,16 +127,16 @@ class _MyHomePageState extends State<MyHomePage> {
                   _startTimer();
                 },
                 style: ElevatedButton.styleFrom(
-                primary: Colors.black,
+                primary: const Color.fromRGBO(250, 194, 19,1),
                 padding: const EdgeInsets.all(40.0),
                 shape: const CircleBorder(
-                  side: BorderSide(color: Colors.orange),
+                  side: BorderSide(color: Color.fromRGBO(247, 126, 33, 1)),
                 ),
                 ),
                 child: const Text(
                   "Start",
                   style: TextStyle(
-                    color: Color.fromARGB(230, 248, 69, 69),
+                    color: Color.fromRGBO(214, 28, 78,1),
                     fontSize: 24,
                   ),
                   ),
